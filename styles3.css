@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:beige;
+    margin-left: 30%;
+    padding: 180px;
+}
+
+h1 {
+    color: #372c2c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+}

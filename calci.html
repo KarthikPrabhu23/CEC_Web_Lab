@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY CALCI</title>
+    <script>
+      function mycal() {
+        var fnum = document.getElementById("fno").value;
+        var snum = document.getElementById("sno").value;
+        var res = parseInt(fnum) + parseInt(snum);
+        alert(res);
+      }
+    </script>
+    <script>
+      function myCal() {
+        var fnum = document.getElementById("fno").value;
+        var snum = document.getElementById("sno").value;
+        var res = parseInt(fnum) - parseInt(snum);
+        alert(res);
+      }
+    </script>
+    <script>
+      function MyCal() {
+        var fnum = document.getElementById("fno").value;
+        var snum = document.getElementById("sno").value;
+        var res = parseInt(fnum) * parseInt(snum);
+        alert(res);
+      }
+    </script>
+    <script>
+      function MYCal() {
+        var fnum = document.getElementById("fno").value;
+        var snum = document.getElementById("sno").value;
+        var res = parseInt(fnum) / parseInt(snum);
+        alert(res);
+      }
+    </script>
+  </head>
+  <body>
+    <h1 style="color: blue" align="center">MY FIRST CALCULATOR</h1>
+    <form name="mycalci" method="post" action="">
+      <table border="10" align="center">
+        <tr>
+          <th>
+            <input
+              type="text"
+              name="fno"
+              id="fno"
+              placeholder="enter the first number"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <input
+              type="text"
+              name="sno"
+              id="sno"
+              placeholder="enter the second number"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <input
+              type="button"
+              style="background-color: #23ab44; color: #ffffff; width: 40px"
+              name="plus"
+              value="+"
+              onClick="mycal();"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <input type="button" name="minus" value="-" onClick="myCal();" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <input
+              type="button"
+              name="multiplication"
+              value="*"
+              onClick="MyCal();"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <input type="button" name="divide" value="/" onClick="MYCal();" />
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

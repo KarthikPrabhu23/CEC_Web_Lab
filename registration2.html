@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div>
+        <img src="canara_logo.jpg">
+        <h1>CANARA</h1>
+    </nav>
+    <h2>College Registration Form</h2>
+    <table align="center">
+        <tr>
+            <th align="center" width="100" height="50"></th>
+            <th align="center" width="100" height="50"></th>
+            <th align="center" width="100" height="50"></th>
+            <th align="center" width="100" height="50"></th>
+            <th align="center" width="100" height="50"></th>
+            <th align="center" width="100" height="50"></th>
+        </tr>
+        <tr>
+            <td><label for="frname">First Name</label>
+                <input type="text" id="frname" name="frname" required></td>
+            <td></td>
+            <td><label for="ltnmae">Last Name</label>
+                <input type="text" id="ltname" name="ltname" required></td>
+            <td></td>
+            <td><label for="nat">Nationality</label>
+                <input type="text" id="nat" name="nat" required></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td><label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required></td>
+            <td></td>
+            <td rowspan="2" colspan="4"> <label for="">Address</label>
+                <textarea id="sug" rows="10" cols="100" name="sug" placeholder="Type here"></textarea>
+        </tr>
+        <tr>
+            <td><label for="mail">Email</label>
+                <input type="email" required></td>
+        </tr>
+        <tr>
+            <td><p>Gender</p>
+                <input type="radio" name="race" id="M" value="M" checked>
+                <label for="M">Male</label>
+                <input type="radio" name="race" id="F" value="F">
+                <label for="F">Female</label>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><label for="ph">Mobile/Telephone</label>
+                <input type="tel" id="ph" name="ph" required></td>
+        </tr>
+        <tr>
+            <td><button>Submit</button></td>
+        </tr>
+    </table>
+</body>
+</html>
